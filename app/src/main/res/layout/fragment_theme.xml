@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/theme_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ser210.cyr.clevernotes2.Fragments.ThemeFragment">
+
+    <TextView
+        android:id="@+id/theme_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Theme"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/theme_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/theme_pic_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_1"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_setting"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/theme_1" />
+
+    <TextView
+        android:id="@+id/theme_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/theme_title_1"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_2"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_pic_1"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/theme_2" />
+
+    <TextView
+        android:id="@+id/theme_title_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/theme_title_2"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_3"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_pic_2"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/theme_3" />
+
+    <TextView
+        android:id="@+id/theme_title_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/theme_title_3"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_4"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_pic_3"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/theme_4" />
+
+    <TextView
+        android:id="@+id/theme_title_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/theme_title_4"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_5"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_pic_4"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/theme_5" />
+
+    <TextView
+        android:id="@+id/theme_title_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/theme_title_5"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:paddingLeft="40dp"
+        android:text="Theme 6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/theme_pic_6"
+        android:layout_width="30pt"
+        android:layout_height="20pt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/theme_pic_5"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/theme_night" />
+
+
+</RelativeLayout>
+
